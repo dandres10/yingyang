@@ -1,0 +1,366 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="css/Mapa.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Mapa interactivo</title>
+
+    <!--
+    	1 ) Reference to the files containing the JavaScript and CSS.
+    	These files must be located on your server.
+    -->
+    
+    <script type="text/javascript" src="Libraries/Highslide/highslide-full.js"></script>
+    <link rel="stylesheet" type="text/css" href="Libraries/Highslide/highslide.css?1.0.1" />
+    <link rel="stylesheet" type="text/css" href="css/Main.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+
+    <!--
+    2) Optionally override the settings defined at the top
+    of the highslide.js file. The parameter hs.graphicsDir is important!
+    -->
+    
+    <script type="text/javascript">
+        hs.graphicsDir = "Libraries/Highslide/graphics/";
+        hs.outlineType = "rounded-white";
+        hs.fadeInOut = true;
+        hs.headingEval = "this.a.title";
+    //hs.dimmingOpacity = 0.75;
+    </script>
+
+    <script src="js/Map.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="Libraries/Highslide/highslide-with-html.js"></script>
+    <link rel="stylesheet" type="text/css" href="Libraries/Highslide/highslide.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script type="text/javascript">
+        hs.graphicsDir = 'Libraries/Highslide/graphics/';
+        hs.outlineType = 'rounded-white';
+    </script>
+    <script src="js/include.js"></script>
+  </head>
+  <body onload="load()">
+    <div class="header">
+        <header>
+            <div class="contenedor">
+                <div class="logo">
+                    <img src="recursos/logo1.png" alt="Pulse aqui para volver al inicio" width="200%">
+                </div>
+                <div class="tagline">
+                    <h1> Te acompañamos en tu camino...</h1>
+                </div>
+            </div>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html">Mapa de Estaciones</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="#sites-id">Sitios de interes</a></li>
+                <li><a href="mapa_sitio.html"/a>Mapa del sitio</li>
+                <li><a href="#">Mi ruta</a>
+                    <ul>
+                        <li><a href="#">Consulta de Estaciones</a></li>
+                        <li><a href="#">Historia de rutas y tiempos de viaje</a></li>
+                        <li><a href="#">Seguridad de informacion y terminos de servicio</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="global">
+        <section class="map" id="map-id">
+            <div class="corner"></div>
+            <div class="corner2"></div>
+            <h1>Conoce nuestras troncales</h1>
+            <div class="container-map">
+                <img id="img-rutas" src="recursos/rutas_transmilenio1.png" alt="Imagen de las rutas de transmilenio"
+                    usemap="#image-map" />
+                <map name="image-map">
+                    <area class="area" target="" alt="Troncal A" title="Troncal A" href="" coords="240,118,469,130"
+                        shape="rect">
+                    <area target="" alt="Troncal B" title="Troncal B" href="" coords="240,130,10,118" shape="rect">
+                    <area target="" alt="Troncal C" title="Troncal C" href=""
+                        coords="75,305,77,237,84,213,108,191,123,182,137,182,236,180,235,208,136,209,119,211,108,222,99,239,97,304"
+                        shape="poly">
+                    <area target="" alt="Troncal D" title="Troncal D" href=""
+                        coords="150,346,150,282,154,261,163,249,236,179,244,170,246,159,246,144,246,127,262,125,262,160,260,171,257,181,246,193,176,261,170,269,167,280,167,345"
+                        shape="poly">
+                    <area target="" alt="Troncal E" title="Troncal E" href=""
+                        coords="192,130,194,132,196,143,196,152,196,163,200,171,207,180,227,198,236,204,246,206,478,206,478,79,456,79,456,187,251,187,238,182,229,176,214,162,213,145,213,129"
+                        shape="poly">
+                    <area target="" alt="Troncal F" title="Troncal F" href=""
+                        coords="431,128,431,256,432,266,436,277,443,284,484,324,487,332,489,343,489,361,495,372,508,376,539,376,539,355,511,354,508,352,508,343,508,328,502,315,493,306,453,269,449,260,449,240,449,128"
+                        shape="poly">
+                    <area target="" alt="Troncal G" title="Troncal G" href=""
+                        coords="623,392,561,326,557,321,555,308,555,245,555,236,548,227,541,220,509,192,500,187,487,185,467,187,467,205,489,205,498,209,508,218,533,242,539,251,539,266,539,315,541,326,546,337,553,345,610,405"
+                        shape="poly">
+                    <area target="" alt="Troncal H1" title="Troncal H1" href=""
+                        coords="583,192,605,216,612,223,612,233,612,253,634,253,634,238,634,225,629,214,621,205,610,196"
+                        shape="poly">
+                    <area target="" alt="Troncal H2" title="Troncal H2" href=""
+                        coords="469,130,513,130,519,134,528,141,583,193,592,196,605,198,669,198,669,182,605,182,597,180,590,173,537,125,526,116,515,114,500,114,469,114"
+                        shape="poly">
+                    <area target="" alt="Troncal J" title="Troncal J" href=""
+                        coords="429,120,429,69,401,36,401,17,412,17,449,58,449,120" shape="poly">
+                    <area target="" alt="Troncal K" title="Troncal K" href=""
+                        coords="332,432,330,285,330,272,335,263,341,254,387,197,392,186,390,173,390,24,410,23,409,184,409,193,403,204,399,214,357,271,354,283,352,294,352,305,352,432"
+                        shape="poly">
+                    <area target="" alt="Troncal L" title="Troncal L" href="" coords="401,67,401,83,583,83,583,67" shape="poly">
+                    <area target="" alt="Troncal M" title="Troncal M" href="" coords="401,84,126,64" shape="rect">
+        
+                </map>
+                <div class="container-buttons show">
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(0)">A</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            Caracas
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(1)">B</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            Autopista Norte
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(2)">C</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            Avenida Suba
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(3)">D</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            Calle 80
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(4)">E</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            NQS Central
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(5)">F</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            AV. Las Américas
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(6)">G</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            NQS Sur
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(7)">H</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            Caracas Sur (Usme)
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(8)">H</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            Caracas Sur (Tunal)
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(9)">J</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            Eje Ambiental
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(10)">K</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            AV. El Dorado
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(11)">L</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            Carrera Décima
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div></div>
+                        <button type="button" onclick="showTroncal(12)">M</button>
+                        <div id="button-triangle"></div>
+                        <div id="title">
+                            Carrera Séptima
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="style-container">
+                <section class="container-troncales" id="troncal">
+                    <button type="button" onclick="hideTroncal('troncal')"><i class="material-icons">close</i></button>
+                    <h3 id="title-troncal">Caracas</h3>
+                    <div class="info-troncal">
+                        <table>
+                            <tr>
+                                <td>Inicio</td>
+                                <td id="start-trunk">Calle 76</td>
+                            </tr>
+                            <tr>
+                                <td>Fin</td>
+                                <td id="end-trunk">Calle 19</td>
+                            </tr>
+                            <tr>
+                                <td>Longitud troncal</td>
+                                <td id="length-trunk">8.0 Km</td>
+                            </tr>
+                        </table>
+                        <div>
+                            <h4 id="trunk-name">Calle 76</h4>
+                            <img id="trunk-image" src="recursos/Estaciones/caracas/Calle_76.jpg">
+                        </div>
+                    </div>
+                    <div class="line-time" id="line-timeID">
+                        <img src="recursos/transmilenio.png" alt="Imagen de un transmilenio" id="img-bus">
+                        <div></div>
+                        <div id="line-time-buttons"></div>
+                    </div>
+                </section>
+            </div>
+            <p>Presionar el indicardor de posición para ver las estaciones por troncal</p>
+        </section>
+        <section class="new">
+            <div class="corner"></div>
+            <div class="corner2"></div>
+            <h2>Noticias</h2>
+            <a href="#" id="link-img"><img src="" id="banner" class="img-banner" width=800 height=400 border=0></a>
+            <h3 id="title-news" ></h3>
+        </section>
+    
+        <section class="sites" id="sites-id">
+            <h2>Sitios de interes</h2>
+            <div class="banner-info">
+                <!--primer info-->
+                <div>
+                    <a href="img/banos.jpg" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/banos.png" width="300x" height="120px" alt="Baños publicos"
+                            title="Baños publicos en el sistema" />
+                    </a>
+                    <div class="highslide-caption">
+                        Baños publicos.
+                        <a href="https://www.transmilenio.gov.co/publicaciones/146215/banos_publicos/">Mas informacion</a>
+                    </div>
+                </div>
+                <!--segunda info-->
+                <div>
+                    <a href="img/biblioestaciones.jpg" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/biblio.png" width="300x" height="120px" alt="Biblioestaciones"
+                            title="biblioestaciones" />
+                    </a>
+                    <div class="highslide-caption">
+                        Biblioestaciones en el sistema.
+                        <a href="https://www.transmilenio.gov.co/publicaciones/146212/bibloestaciones/">Mas informacion</a>
+                    </div>
+                </div>
+                <!--tercer info-->
+                <div>
+                    <a href="img/cicloparqueaderos.jpg" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/bici.png" width="300x" height="120px" alt="Cicloparqueaderos"
+                            title="Cicloparqueaderos" />
+                    </a>
+                    <div class="highslide-caption">
+                        Mapa de los cicloparqueaderos.
+                        <a
+                            href="https://www.transmilenio.gov.co/publicaciones/147584/cicloparqueaderos-en-el-sistema-transmilenio/ ">Mas
+                            informacion</a>
+                    </div>
+                </div>
+                <!--cuarta info-->
+                <div>
+                    <a href="img/app.png" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/app.png" width="300x" height="120px" alt="transmi App"
+                            title="Aplicacion de transmilenio" />
+                    </a>
+                    <div class="highslide-caption">
+                        Descargue la app de transmilenio para estar al dia con todas las novedades de el sistema
+                        <a href="https://play.google.com/store/apps/details?id=com.nexura.transmilenio&hl=es_CO">Descarguela
+                            Aqui</a>
+                    </div>
+                </div>
+                <!--Quinta info-->
+                <div>
+                    <a href="img/transmichiquis.png" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/transmichi.png" width="300x" height="120px" alt="TransMiChiquis"
+                            title="TransMiChiquis" />
+                    </a>
+                    <div class="highslide-caption">
+                        Para que los niños conozcan el sistema.
+                        <a href="https://transmichiquis.transmilenio.gov.co">Ir a la pagina</a>
+                    </div>
+                </div>
+                <!--sexta info-->
+                <div>
+                    <a href="img/salud.jpg" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/puestosalud.jpg" width="300x" height="120px" alt="Puestos de salud"
+                            title="Puestos de atencion en salud del sistema" />
+                    </a>
+                    <div class="highslide-caption">
+                        Puestos de Atencion en salud.
+                        <a href="https://www.transmilenio.gov.co/publicaciones/146214/puestos_de_atencion_en_salud/">Mas
+                            informacion</a>
+                    </div>
+                </div>
+                <!--septima info-->
+                <div>
+                    <a href="img/transwifi.png" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/wifi.png" width="300x" height="120px" alt="Wifi Gratis en Transmilenio "
+                            title="TransMiChiquis" />
+                    </a>
+                    <div class="highslide-caption">
+                        Disfruta de wifi en las estaciones de transmilenio.
+                        <a href="http://www.bogota.gov.co/movilidad/wifi-gratis-en-transmilenio">Mas Informacion</a>
+                    </div>
+                </div>
+                <!--octava info-->
+                <div>
+                    <a href="img/pqr.png" class="highslide" onclick="return hs.expand(this)">
+                        <img src="img/pqr.png" width="300x" height="120px" alt="Pqrs"
+                            title="Peticiones, Quejas, Reclamos o Sugerencias" />
+                    </a>
+                    <div class="highslide-caption">
+                        Aqui puede colocar peticiones, quejas o reclamos sobre el sistema.
+                        <a href="https://play.google.com/store/apps/details?id=com.nexura.transmilenio&hl=es_CO">Ir a la
+                            pagina</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <iframe width="100%" height="440px" src="footer.html" frameborder="no" scrolling="no"></iframe>
+    </footer>
+  </body>
+</html>

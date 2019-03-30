@@ -1,0 +1,25 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: helvetica;
+}
+section{
+    width:95%; 
+    max-width:1000px; 
+    margin: 50px auto; 
+    overflow:hidden;
+    font-family: helvetica;
+    text-decoration: black;
+    box-shadow: 0 0 10px 1px lightgray;
+}
+ul h3{
+    color: #005B94;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: red;
+}
+
