@@ -1,0 +1,159 @@
+CARRERA 10
+* Av. 1 Mayo:		Vagón 1 - K10 M83 L10 H83
+			Vagón 2 - 2 M82 L82
+			Vagón 3 - B18 L18
+
+* Bicentenario: 	Vagón 1 - 2
+			Vagón 2 - M82 M83 H83 L82
+			Vagón 3 - B18 K10 L10 L18
+
+* Ciudad Jardín: 	Vagón 1 - K10 L10 
+		 	Vagón 2 - 2 
+
+* Country Sur:  	Vagón 1 - B18 L18
+			Vagón 2 - 2 M82 L82
+
+* Las Nieves: 		Vagón 1 - M47 M51 F51 G47
+			Vagón 2 - 2
+
+* Policarpa:		Vagón 1 - 2
+			Vagón 2 - M83 H83
+
+* P. 20 de Julio: 	Plataforma 1 - K10 2 M82 B18
+
+* San Diego:		Vagón 1 - 2 M51 M82 F51 L82
+			Vagón 2 - M47 M83 M86 G47 H83
+
+* San Victorino: 	Vagón 1 - M83 G47
+		 	Vagón 2 - 2 H83
+		 	Vagón 3 - M47 M82 L82
+
+* E. San Bernardo:	Vagón 1 - B18 K10 L10 L18
+			Vagón 2 - 2 
+
+
+
+AMÉRICAS
+* Av. Jiménez:		Vagón 4 - F23 J70
+			Vagón 5 - 5 J23
+
+* Banderas:		Plataforma 1 - 5 F51 F62 F14 F28 F32 F23 F19 F29 B52 M51 B14 B28 E32 J23 C19 C29 
+
+* B. Tintal: 		Vagón 1 - F14 F51 
+		     	Vagón 2 - 5 F28 F29 
+		     	Vagón 3 - B14 C29 M51
+		     	Vagón 4 - B28 B52
+
+* San Façon Cra. 22:	Vagón 1 - 5
+			Vagón 2 - J23 F23
+
+* CDS Cra. 32: 		Vagón 1 - 5 B28 F14
+			Vagón 2 - B14 F28
+
+* Cra. 43:		Vagón 1 - 5
+			Vagón 2 - M51 F51
+
+* Cra. 53A: 		Vagón 1 - 5 M51 F19
+	    		Vagón 2 - C19 F51
+
+* Mandalay:		Vagón 1 - 5 M51 F51
+			Vagón 2 - C19 F19
+
+* Marsella: 		Vagón 1 - 5 B52 
+			Vagón 2 - C19 F19
+			Vagón 3 - M51 F51
+
+* Mundo Aventura: 	Vagón 1 - J23 F23
+		  	Vagón 2 - 5 M51 F51
+
+* Patio Bonito: 	Vagón 1 - 5 F51
+			Vagón 2 - F23 F29
+			Vagón 3 - C29 J23
+			Vagón 4 - M51
+
+* Portal Américas: 	Plataforma 1 - B52 B14 E32 B28
+		   	Plataforma 2 - M51 J23
+		   	Plataforma 3 - D50 5 C29
+
+* Pradera: 		Vagón 1 - 5 B14 F14
+	   		Vagón 2 - M51 F51
+
+* Puente Aranda:  	Vagón 1 - 5
+
+* Ricaurte: 		Vagón 4 - F19 F51 M51
+			Vagón 5 - F23 J23
+			Vagón 6 - 5 C19
+
+* De la Sabana:		Vagón 1 - 5 F14
+			Vagón 2 - B14 
+
+* Transversal 86: 	Vagón 1 - "Ninguna ruta"
+		  	Vagón 2 - 5 B14 F14
+
+* Zona Industrial: 	Vagón 1 - B28 5 F19
+		   	Vagón 2 - C19 F28
+
+
+
+EJE AMBIENTAL
+* Las Aguas:	Vagón 1 - B74 F23
+
+* M. del Oro:	Vagón 1 - J70 J23 J74 B74 F23
+
+
+
+CARACAS
+* Av. 39: 	Vagón 1 - B13 B52 B74 H15 H21 H73
+	  	Vagón 2 - D21 D51 D24 6 8 H13
+	  	Vagón 3 - C15 J74 J24 F62
+
+* Av. Jiménez:	Vagón 1 - B27 B75 K10 3 8 H27 L10
+		Vagón 2 - D20 D51 H17 H20 H75
+		Vagón 3 - C17
+
+* Calle 19: 	Vagón 1 - B74 D20 D51 H15 H73 H20
+	    	Vagón 2 - 3 5 8
+	    	Vagón 3 - C15 C19 F19 J74
+
+* Calle 22:  	Vagón 1 - B13 K10 L10
+	     	Vagón 2 - 3 5 8
+	     	Vagón 3 - C15 H13 H15
+
+* Calle 26: 	Vagón 1 - 8 B14 B23 H20 H73 K23
+	    	Vagón 2 - 6 C19 C29 F19 F29 J24
+	    	Vagón 3 - D20 D24 D50 D51 F14 F62
+
+* Calle 34:	Vagón 1 - B14 B18 H20 H73 L18
+		Vagón 2 - 6 8 C29 D20 D50 F19 F29
+		Vagón 3 - C19 D51 F14 F62
+
+* Calle 45:	Vagón 1 - B14 B18 B23 H20 K23 L18
+		Vagón 2 - 6 8 D20 D50 D51 H15 H73
+		Vagón 3 - C15 C19 F14 F19 F62
+
+* Calle 57:	Vagón 1 - B18 B23 B74 H17 H51 K23 L18
+		Vagón 2 - 6 D21 D50 D24 H21
+		Vagón 3 - 8 C17 F62 J24 J74
+
+* Calle 63: 	Vagón 1 - 8 C19 C29 H13 H21
+		Vagón 2 - B13 B18 B75 F19 F29 L18
+		Vagón 3 - 6 D21 H75
+
+* Calle 72: 	Vagón 1 - 6 D21 D50 G52 H21 H27 J74
+		Vagón 2 - B27 C17 C19 C29 A52 A74 F19 F29 F62
+		Vagón 3 - 8 B75 B74 H17 H51 H75
+
+* Calle 76: 	Vagón 1 - B27 C15 C17 G52 A52 H27 H17 H51 H75
+		Vagón 2 - 6 8 D21 D50 H15 H21
+		Vagón 3 - B52 B74 B75 A74 F62 J74
+
+* Flores: 	Vagón 1 - 8 B13 G52 A52 H17
+		Vagón 2 - 6 C17 D21 H13 H21
+
+* Marly: 	Vagón 1 - B14 B27 B75 H15 H21 H27
+		Vagón 2 - 6 8 D21 F14 F19
+		Vagón 3 - C15 C17 C19 H17 H75
+
+* T. Milenio: 	Vagón 1 - B13 B18 L10 L18
+		Vagón 2 - 3 8 K10 H15
+		Vagón 3 - C15 H13
