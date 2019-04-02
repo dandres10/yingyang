@@ -1,0 +1,477 @@
+﻿/*Rutas*/
+/*Estaciones*/
+
+//Troncal Norte (norte, caracas sur)
+
+		Terminal
+		Vagon1(Plataforma 1(B16  B11  B18 8) plataforma 2(8 G11  K16  L18))
+
+		Calle 187
+		Vagon1(Plataforma 1(B16  B11  B18 8) plataforma 2(8 G11  K16  L18))
+
+		Portal Norte
+		Plataforma 1(D10  G12  F28  F14  J74  J70 Plataforma 2(H27  H13  C50  H51  H75)    
+	
+		Toberín
+		Vagon 1(J70  J74  D10 B74  B75 B71) Vagon2(8  G11  G12  B11   B16) Vagon 3(8  K16  B12  B10  B72) Vagon 4(H72  H73) Vagon 5(H75  A74)
+	
+		Calle 161
+		Vagon 1(  )  Vagon 2(  8 B13  B50 )  Vagon 3( 8 H13)  Vagon 4(C50)
+
+		Mazurén
+		Vagon 1( G11 ) Vagon 2(	 ) Vagon3 (B11  B13)  Vagon 4( H13  H51)
+		
+		Calle 146
+		Vagon 1(B10  B11  B71  D10  G11) Vagon 2 (8  8 F14  A74 H75) Vagon 3(B75 H51  H73  B14)
+
+		Calle 142
+		Vagon 1(B12 B13 8) Vagon 2(B50 B744 B75) Vagon3(A74  H13  H75  J70  J74) Vagon4(8  C50 G12)
+
+		Alcalá
+		Vagon 1(8 F14  L18  B72  B52  B23  B18) Vagon 2(A74 H72 H75 H73 J70 B14 B75 8) Vagon 3(D10 K16 K23  B10 B16 B71)
+
+		Prado
+		Vagon 1(H75 H73 A74 8 B28) Vagon 2(J74 J70 F28 B75 8) Vagon 3(K23 G12 B74 B71 B23 B12)
+
+		Calle 127
+		Vagon 1(H73 H75 F14 A74 8 B12 B18 8) Vagon 2(L18 J70 G12 B75 B14)
+
+		Pepe Sierra
+		Vagon 1(G11 F28 8 B18 B16 B10 8) Vagon 2(D10 H51 H72 K16 L18 B72 B28 B11)
+		
+		Calle 106
+		Vagon 1(8 B10 B13) Vagon 2(B11 B28) Vagon 3(G11 H13) Vagon 4(8 D10 F28)
+
+		Calle 100
+		Vagon 1(G12 8 B12 B13 8) Vagon 2(H75 H13 C50 B75 B50 B10) Vagon 3(J74 F14 D10 B74 B71 B14)
+
+		Virrey
+		Vagon 1(L18 H27 D10 B27 B10) Vagon 2(8 J74 B52 B50 B11 8) Vagon 3(G11 C50 B74 B71 B18)
+
+		Calle 85
+		Vagon 1(K23 G11 D10 B50 B23 B14 B13) Vagon 2(F14 C50 8 B10 8) Vagon 3(H13 H27 B71 B27 B11)
+
+		Héroes
+		Vagon 1(J74 F14 B14 4) Vagon 2(H75 8 4 B74 B71 B56 B52 8) Vagon 3(G11 C50 B75 B55 B50 B11)
+
+
+//Troncal Caracas
+		Calle 76
+		A52  A74  B27  B52  B74  B75  C15  C17  D21  D50  F62  G52  H15  H17  H21  H27  H51  H75  J74
+
+		Calle 72
+		A52  A74  B27  B74  B75  C17  C19  C29  D21  D50  F19  F29  F62  G52  H17  H21  H27  H51  H75  J74
+
+		Flores
+		A52  B13  C17  D21  G52  H13  H17  H21
+
+		Calle 63
+		B13  B18  B75  C19  C29  D21  F19  F29  H13  H21  H75  L18
+
+		Calle 57
+		B18  B23  B74  C17  D21  D24  D50  F62  H17  H21  H51  J24  J74  K23  L18
+
+		Marly
+		B14  B27  B75  C15  C17  C19  D21  F14  F19  H15  H17  H21  H27  H75
+
+		Calle 45
+		B14  B18  B23  C15  C19  D20  D50  D51  F14  F19  F62  H15  H20  H73  K23  L18
+
+		AV 39
+		B13  B52  B74  C15  D21  D24  D51  F62  H13  H15  H21  H73  J24  J74
+
+		Profamilia
+		B14  B18  C19  C29  D20  D50  D51  F14  F19  F29  F62  H20  H73  L18
+
+		Calle 26
+		B14  B23  C19  C29  D20  D24  D50  D51  F14  F19  F29  F62  H20  H73  J24  K23
+
+		Calle 22
+		B13  C15  H13  H15  K10  L10
+
+		Calle 19
+		B74  C15  C19  D20  D51  F19  H15  H20  H73  J74
+
+		AV Jiménez
+		B27  B75  C17  D20  D51  F23  H17  H20  H27  H75  J23  J70  K10  L10
+
+		Tercer Milenio
+		B13  B18  C15  H13  H15  K10  L10  L18
+
+//Troncal Caracas Sur
+		Hospital
+		Vagon 1(C17  H17) Vagon 2(3 3)
+
+		Hortúa
+		Vagon 1(H75 H54 H17 B13 B71 B75 K54) Vagon 2(H13 3 C17 3)
+
+		Nariño
+		Vagon 1(H72 H75) Vagon 2(H21 H15 3 D21 C15 3)
+
+		Fucha
+		Vagon 1(D21 H21 H72) Vagon 2(H73 3 B72 3)
+
+		Restrepo
+		Vagon 1(B13 B75 K54 H17 H54 H75) Vagon 2(H73 H13 3 C17 B71 3)
+
+		Olaya
+		Vagon 1(H73 H21 H72 C15 B72 B71) Vagon 2(3 D21 H15 3)
+
+		Quiroga
+		Vagon 1(B13  H13) Vagon 2(3  3)
+
+		Calle 40 S.
+		Vagon 1 (K54 H73 H27 H21 H13 B75 B27 B13) Vagon 2(H75 H54 H20 H17 D20 D21 3) Vagon 3(H15 3 B71 C17 C15) 
+
+		Santa Lucía
+		Vagon 1(3 H21 C17 B75 B71) Vagon 2(H75 H51 H20 H17 D21 D20 3)
+
+		Socorro
+		Vagon 1(3 H51 3) Vagon 2(H75 B75)
+
+		Consuelo
+		Vagon 1(H83 H51 3 M83 C17)  Vagon 2(H17 B75 H75 3) 
+
+		Molinos
+		Vagon 1(H72 H75 K54 D20 3) Vagon 2(H54 H51 H20 H17 3 C17 B75 B72)
+
+		Portal Usme
+		Pataforma 1(K54 D20 D51) Plataforma 2(B75 B72 C17 3)
+
+//Troncal Suba 
+		Portal Suba
+		B50  B56  C15  C17  C19  C29  C30  C50  C73  F19  F29  G30  H15  H17  J73
+
+		La Campiña
+		B50  C17  C19  C29  C30  C50  C73  F19  F29  G30  H17  J73
+
+		Suba - TV 91
+		B50  B56  C19  C29  C30  C50  C73  F19  F29  G30  J73
+
+		21 Ángeles
+		B50  C15  C50  H15  C84  M84
+
+		Gratamira
+		C19  F19
+
+        Suba AV Boyacá
+		C17  C30  C73  G30  H17  J73
+
+		Niza - Calle 127
+		C15  C73  H15  J73
+
+		Humedal Córdoba
+		C15  H15
+
+		Shaio
+		B50  C17  C29  C30  C50  F29  G30  H17
+
+		Puentelargo
+		C15  C17  C19  C29  C30  C73  F19  F29  G30  H15  H17  J73
+
+        Suba - Calle 100
+		C19  C29  F19  F29  C84  M84
+
+		Suba Calle 95
+		C19  C30  F19  G30
+
+		Rionegro
+		B50  C15  C50  H15
+
+		San Martín
+		C17  C73  H17  J73
+
+//NQS Central
+		La Castellana
+		B28  B72  F28  G12  H72
+
+		Calle 75
+		B12  C30  D22  E32  F32  G12  G22  G30
+
+		AV Chile
+		B16  B28  B72  D22  E32  F28  F32  G22  H72  K16
+
+		Simón Bolívar
+		B12  B28  E32  E44  F28  F32  G12  G44
+
+		Movistar Arena
+		B72  H72
+
+		Campín – UAN
+		B11  C30  G11  G30
+
+		U. Nacional
+		B12  B28  C30  D22  E44  F28  G12  G22  G30  G44
+
+		AV Eldorado
+		B12  B16  G12  K16
+
+		CAD
+		B28  C30  E32  F28  F32  G30  G42  G43  K42  K43
+
+		Paloquemao
+		B11  B71  B72  D22  E44  G11  G22  G44  H72
+
+		Ricaurte
+		B11  B12  C19  C30  D22  F19  F23  F51  G11  G12  G22  G30  G42  G43  J23  K42  K43  M51
+
+		Comuneros
+		B12  E44  G12  G44  G47  M47
+
+        Tygua - San José
+		B71  B72  G47  H72  M47
+
+		Guatoque - Veraguas
+		B71  B72  G47  H72  M47
+
+
+//Troncal NQS Sur
+		Santa Isabel
+		A52  B12  C30  E44  G12  G30  G44  G52
+
+		SENA
+		B11  D22  G11  G22  G42  G43  K42  K43
+
+		NQS-CL 30 SUR
+		A52  G47  G52  M47
+
+		NQS-CL 38A SUR
+		C30  G30  G47  M47
+
+		General Santander
+		A52  B12  C30  D22  G12  G22  G30  G42  G43  G52  K42  K43
+
+		Alquería
+		B11  E44  G11  G44  G47  M47
+
+		Venecia
+		A52  B11  C30  G11  G30  G42  G43  G52  K42  K43
+
+		Sevillana
+		D22  G22  G47  M47
+
+		Madelena
+		B12  G12  G47  M47
+
+		Perdomo
+		A52  B12  G12  G47  G52  M47
+
+		Portal del Sur
+		A52  B11  B12  C30  D22  G11  G12  G22  G30  G45  G47  G52  M47
+
+		Bosa
+		G42  G44  G45  K42
+
+		La Despensa
+		G43  G45  K42  K43
+
+		León XIII
+		G43  G45  K42  K43
+
+		Terreros
+		G42  G43  G44  G45  K42  K43
+
+		San Mateo
+		G42  G43  G44  G45  K42  K43
+
+
+//TroncalCalle 80
+		Polo
+		C17  D20  D24  H17  H20  J24
+
+		Escuela Militar
+		B11  B56  C15  D24  G11  H15  J24
+        
+		Carrera 47
+		B10  D10  D22  G22  D81  M81
+        
+		Carrera 53
+		B10  D10
+        
+		Avenida 68
+		D20  D24  H20  J24  D81  M81
+        
+        Ferias
+		D20  H20
+
+		Boyacá
+		D20  H20
+
+		Minuto de Dios
+		D21  D22  D50  D51  F62  G22  H21
+
+		Granja - KR 77
+		B10  B55  D10  D20  D21  D22  D24  D50  F62  G22  H20  H21  J24
+
+		Avenida Cali
+		B10  D10  D20  D21  H20  H21
+
+		Carrera 90
+		B10  D10  D21  H21
+
+		Quirigua
+		D21  H21
+
+		Portal 80
+		B10  B55  D10  D20  D21  D22  D24  D50  D51  F62  G22  H20  H21  J24
+
+
+//Troncal Calle 26 Av Eldorado	
+
+		Universidades
+		B74  C73  D24  J24  J73  J74
+
+		Centro Memoria
+		K10  L10
+
+		Concejo de Bogotá
+		B23  H54  K23  K54  K86  M86
+
+		Ciudad Universitaria
+		B23  C73  H54  J73  K10  K23  K54  L10
+
+		Corferias
+		B16  G42  G43  H54  K16  K42  K43  K54  K86  M86
+
+		Quinta Paredes
+		B16  G43  H54  K16  K43  K54  K86  M86
+
+		Gobernación
+		B23  G43  K10  K23  K43  L10  K86  M86
+
+		CAN
+		B16  B23  H54  K10  K16  K23  K54  L10  K86  M86
+
+		Salitre - El Greco
+		B16  B23  G43  H54  K10  K16  K23  K43  K54  L10  K86  M86
+
+		El Tiempo - Maloka
+		B16  B23  G43  H54  K16  K23  K43  K54  K86  M86
+
+		AV Rojas
+		B16  B23  H54  K16  K23  K54  K86  M86
+
+		Normandía
+		G43  K10  K43  L10
+
+		Modelia
+		B16  G43  H54  K10  K16  K43  K54  L10
+
+		Portal Eldorado
+		B16  B23  G43  H54  K10  K16  K23  K43  K54  L10  K86  M86
+
+
+
+//Troncal Eje Ambiental
+
+		Aguas
+		  F23  J23  J70  J74
+
+		Museo del Oro
+		  F23  J23  J70  J74
+
+//Troncal Americas
+
+        AV Jiménez
+		B27  B75  C17  D20  D51  F23  H17  H20  H27  H75  J23  J70  K10  L10
+
+		De La Sabana
+		B14  F14
+
+		San Façón - KR 22
+		F23  J23
+       
+		Ricaurte
+		B11  B12  C19  C30  D22  F19  F23  F51  G11  G12  G22  G30  G42  G43  J23  K42  K43  M51
+
+		CDS - Carrera 32
+		B14  B28  F14  F28
+
+		Zona Industrial
+		B28  C19  F19  F28
+
+		Carrera 43
+		F51  M51
+
+		Puente Aranda
+		F19  F51  M51
+
+		Américas - KR 53A
+		C19  F19  F51  M51
+
+		Pradera
+		B14  F14  F51  M51
+
+		Marsella
+		B52  C19  F19  F51  M51
+
+		Mundo Aventura
+		F23  F51  J23  M51
+
+		Mandalay
+		C19  F19  F51  M51
+
+		Banderas
+		B14  B28  B52  C19  C29  E32  F14  F19  F23  F28  F29  F32  F51  F62  J23  M51
+
+		Transversal 86
+		B14  F14
+
+		Biblioteca Tintal
+		B14  B28  B52  C29  F14  F28  F29  F51  M51
+
+		Patio Bonito
+		C29  F23  F29  F51  J23  M51
+
+		Portal Américas
+		B14  B28  B52  C29  D50  E32  F14  F23  F28  F29  F32  F51  F62  J23  M51
+	
+
+//Carrera Septima
+
+		Museo Nacional
+		F51  G47  M47  M51  M81  M83  M84  M86  K86  H83  D81  C84
+
+//Carrera 10
+
+		San Diego
+		F51  G47  M47  M51  L82  M82  M83  M86  H83
+
+		Las Nieves
+		F51  G47  M47  M51
+
+		San Victorino
+		G47  M47  H83  L82  M82  M83
+
+		Bicentenario
+		B18  K10  L10  L18  H83  L82  M82  M83
+
+		Hospitales
+		B18  K10  L10  L18
+
+		Policarpa
+		H83  M83
+
+		Ciudad Jardín
+		K10  L10
+
+		AV 1° de Mayo
+		B18  K10  L10  L18  H83  L82  M82  M83
+
+		Country Sur
+		B18  L18  L82  M82
+
+		Portal 20 de Julio
+		B18  K10  L10  L18  L82  M82
+	
+		
+
+
+
+
+
+
+
+
+
+
